@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise 1</title>
+<style>
+
+    /* BACKGROUND UTAMA */
+    .container {
+        width: 300px;
+        background-color: #dac0a7; /* Warna coklat */
+        border: 2px solid black; /* Garis tepi hitam */
+        padding: 20px;
+        box-sizing: border-box;
+        color: black;
+        font-family: Arial, sans-serif;
+        outline: 10px;
+        
+    /* BACKGROUND JUDUL DAN PARAGRAF*/
+    }
+    .title-box, .paragraph-box {
+        background-color: white; /* Latar belakang putih */
+        padding: 5px;
+        margin-bottom: 20px; /* Jarak antar elemen */
+        outline: 2px solid black; /* Menambahkan outline dengan lebar 10px dan gaya solid */
+        text-align: center; 
+    }
+
+    /* GAMBAR */
+    .image-container {
+        scale: 80%;
+        margin-bottom: 10px; /* Jarak sebelum tombol */
+    }
+
+    /* TOMBOL */
+    .button-js {
+        display: block; /* Mengubah display menjadi block */
+        margin: auto; /* Membuat tombol berada di tengah secara horizontal */
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        outline: 1px solid black;
+    }
+
+    
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title-box">
+        <h2>PDI PERJUANGAN</h2>
+    </div>
+    <div class="paragraph-box">
+        <p>PDIP adalah sebuah partai bergambar banteng berwarna dominan hitam dan merah</p>
+    </div>
+    <div class="image-container">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2022/01/10/15-twibbon-hut-pdi-perjuangan-bisa-diunggah-di-media-sosial.jpeg?w=600&q=90" alt="Placeholder" style="width: 100%;">
+    </div>
+    <button class="button-js" onclick="displayAlert()">Klik Aku</button>
+</div>
+
+
+<script>
+    function displayAlert() {
+        alert('Halo! Ini adalah pesan dari JavaScript.');
+    }
+</script>
+</body>
+</html>
+
